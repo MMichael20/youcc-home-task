@@ -61,10 +61,16 @@ YOUCC-HOME-TASK
 
 ## Notes
 Was a very fun and interesting project, especially with combining the hybrid test which is something I've never tried before.
-For the single login mechanism I created a global-setup file that registers a new user and logs in, and then saves the token to data/storageState.json, which later all the test are using. Some of the tests don't need to be signed in so for that I used ```storageState: undefined``` to tell the test to not use localStorage, that was also a fun and educating experience.
+
+For the single login mechanism I created a global-setup file that registers a new user and logs in, and then saves the token to data/storageState.json, which later all the test are using. Some of the tests don't need to be signed in so for that I used ```storageState: 
+undefined``` to tell the test to not use localStorage, that was also a fun and educating experience.
+
 I used the POM module splitting the pages, while creating for each page its functions, and using them to construct many different tests more easily.
+
 I've splitted the test to ui, hybrid and api. For UI - I was performeing a registertion process, one negative and one positive. For the hybrid one I updated the user's hobby and then checked in the UI if it shows correctly. For the API - I updated the user's gender and then verified it has updated successfully.
+
 For the locators I used playwright's codegen and transformed the locators to be usable in my pages.
+
 In conclusion I enjoyed creating this framework and glad for the opportunity to grow and learn :)
 
 
