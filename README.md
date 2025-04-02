@@ -10,10 +10,11 @@ git clone https://github.com/MMichael20/youcc-home-task.git
 cd YOUCC-HOME-TASK
 npm install
 ```
+### 2. Install Playwright Browsers
+``` npx playwright install ```
 
-### 2. Environment Configuration
-- Update configuration in `config/app.config.ts`.
-- Configure environment variables in `config/environments.ts`.
+### 3. Environment Configuration
+- Update configuration in `playwright.config.ts`.
 
 ## Authentication Setup
 - Authentication sessions are stored in `data/storageState.json`.
