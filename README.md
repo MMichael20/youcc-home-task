@@ -17,7 +17,8 @@ npx playwright install
 
 ### 3. Environment Configuration
 - Update configuration in `playwright.config.ts`.
-
+- To see the test being run in the browser set the headless to be False
+- To run the tests simultaneously increase the number of workers. Default - workers: 1
 
 
 ## Authentication Setup
