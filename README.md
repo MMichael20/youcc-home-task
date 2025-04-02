@@ -11,14 +11,18 @@ cd YOUCC-HOME-TASK
 npm install
 ```
 ### 2. Install Playwright Browsers
-``` npx playwright install ```
+```bash
+npx playwright install
+```
 
 ### 3. Environment Configuration
 - Update configuration in `playwright.config.ts`.
 
+
+
 ## Authentication Setup
 - Authentication sessions are stored in `data/storageState.json`.
-- The global setup (`global-setup.ts`) logs in once, optimizing test execution.
+- The global setup logs in once, optimizing test execution.
 
 ## Running Tests
 
