@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { apiContext } from '../utils/api';
-import { ProfilePage } from '../pages/ProfilePage';
+import { apiContext } from '../../utils/api';
+import { ProfilePage } from '../../pages/ProfilePage';
 
 test('update hobby via API', async () => {
   const api = await apiContext();

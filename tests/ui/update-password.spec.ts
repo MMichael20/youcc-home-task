@@ -1,8 +1,8 @@
 import test from "@playwright/test";
-import { ProfilePage } from "../pages/ProfilePage";
+import { ProfilePage } from "../../pages/ProfilePage";
 import { readFile, writeFile } from "fs/promises";
-import { generatePassword } from "../utils/test.data";
-import { LoginPage } from "../pages/LoginPage";
+import { generatePassword } from "../../utils/test.data";
+import { LoginPage } from "../../pages/LoginPage";
 import { log } from "console";
 
 test("Verify correct error when password confirmation is different", async({page}) => {

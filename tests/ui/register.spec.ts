@@ -1,6 +1,6 @@
 import {test} from '@playwright/test'
-import { RegisterPage } from '../pages/RegisterPage'
-import {generateUser} from '../utils/test.data'
+import { RegisterPage } from '../../pages/RegisterPage'
+import {generateUser} from '../../utils/test.data'
 
 test.use({ storageState: undefined });
 
