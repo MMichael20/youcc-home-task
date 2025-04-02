@@ -60,7 +60,7 @@ YOUCC-HOME-TASK
 ```
 
 ## Notes
-Was a very fun and interesting project, especially with combining the hybrid test which is something I've never tried before.
+This was a very fun and interesting project, especially with combining the hybrid test which is something I've never tried before.
 
 For the single login mechanism I created a global-setup file that registers a new user and logs in, and then saves the token to data/storageState.json, which later all the test are using. Some of the tests don't need to be signed in so for that I used ```storageState: 
 undefined``` to tell the test to not use localStorage, that was also a fun and educating experience.
